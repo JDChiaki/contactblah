@@ -1,0 +1,68 @@
+Ealry Versions
+--------------
+1.  Initial Commit
+    The commit initiated, only README file exists
+
+2.  prototypeWithFolders
+    Main functions are created and tested. 
+    In this prototype, we can run the program only in order (e.g. we need to view contact and add contact before deleting or editing contact.)
+    Data file is created outside source codes folder.
+    Main program load data from file, put those into ArrayList.
+    Everything updated during the program is added to or deleted from ArrayList.
+    When the program ends, the data in .csv file is overwritten by updated datas in ArrayList.
+
+
+Stable Versions
+---------------
+**Version 1**
+-------------
+1.  firstVersionWithSwitches
+    Only Name, Phone numbers, Email are included in contact list.
+    Switch function is added to the main method. You can now directly perform the function you want.
+    Each function (i.e. View, add, Edit, Delete contact) are separated into methods.
+    The program stop automatically after performing one function.
+
+2.  functionalWithSwitches
+    The system will run until you choose to EXIT.
+    After ciewing contact list, you will be requested to click ENTER key to go back to Main Menu.
+    (in previous version, main menu automatically pops up while we are viewing contact list.)
+    The Continue or Back function are added everytime we Add, Delete or Edit contact.
+    
+3.  Version 1.0
+    (Actually functionalWithSwitches version might be version 1.0. I don't know how to change commit names. TwT)
+    Stable file is created and Version Note is added.
+    README file is modified a little bit.
+
+4.  Version 1.1
+    Fixed:  When we enter string input in main menu, the system will show invalid input.
+            (Traceback appears in previous version.)
+    Added:  Contact searching. 
+            (Best matchhfunction is also added if the contact is not found.)
+
+5.  Version 1.2
+    Fixed:  Edit Contact    Added try, catch for invalid input
+            Delete Contact  Added try, catch for invalie input.
+    Added:  Cancle button for fuctions.
+            Contact not found text. (when there is no contact)
+            Contact are sorted.
+            Edit all butoon (editing name, number, mail at once) in contact.
+
+6. Version 1.3
+    Adjusted:   View Contact    When choosing View Contact, only the names will appears first. 
+                                The details will appear only when you choose that name. Added try, catch block for invalid input.
+                Search Contact  Best matched names will display more than one result.   
+                Display         Enhanced display a little bit.           
+
+7. Version 1.4
+    Adjusted:   Add Contact     Name is a required filed now. You can't skip the name as blank.
+                Delete Contact  Contact list are displayed again if we choose Delete again.
+
+8. Version 2.0
+    The methods are separated from Main file and moved into ContactMethods.
+
+9. Version 2.1
+    Added:      Create account and LogIn Logout system are added.
+    Adjusted:   Foulder are separated as contactData and userData.
+
+10. Version 2.1.1
+    Fixed       fixed contactData file missing while downloading from github.
